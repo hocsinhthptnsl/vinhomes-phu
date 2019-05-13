@@ -1,0 +1,213 @@
+.screen-header {
+	padding: 0em 0em 0em 10em !important;
+	background-color: rgba(252,252,252,1);
+	//color: #ffffff;
+	@include mobile {
+		padding: 0em !important;
+	}
+	@include tablets {
+		padding: 0em 0em 0em .5em !important;
+	}
+	@include tablets-pro {
+		padding: 0em 0em 0em .5em !important;
+	}
+	@include mobile-horizontal {
+		padding: 0em !important;
+	}
+	@include mobile-horizontal-lg {
+		padding: 0!important;
+	}
+	@include tablets-horizontal {
+		padding: 0em 0em 0em .5em !important;
+	}
+	.div-img-header {
+		padding-left: 380px !important;
+		padding-right: 0 !important;
+		@include mobile {
+		}
+		@include tablets {
+			padding: 0 !important;
+		}
+		@include tablets-pro {
+			padding: 0 !important;
+		}
+		@include mobile-horizontal {
+			padding: 0 !important;
+		}
+		@include mobile-horizontal-lg {
+			padding: 0 !important;
+		}
+		@include tablets-horizontal {
+			padding: 0 !important;
+		}
+		.img-header {
+			float: right;
+			width: 100%;
+			height: 15vh;
+			opacity: .8;
+			cursor: pointer;
+			@include mobile {
+				display: none;
+			}
+			@include tablets {
+				width: 80%;
+				height: 10vh;
+				padding: 0 !important;
+			}
+			@include tablets-pro {
+				width: 80%;
+				height: 10vh;
+				padding: 0 !important;
+			}
+			@include mobile-horizontal {
+				display: none;
+			}
+			@include mobile-horizontal-lg {
+				display: none;
+			}
+			@include tablets-horizontal {
+			}
+		}
+	}
+	.div-logo-header {
+		@include mobile {
+			padding: 0 !important;
+			text-align: center;
+		}
+		@include tablets {
+			padding: 0 !important;
+			text-align: center;
+		}
+		@include tablets-pro {
+			padding: 0 !important;
+			text-align: center;
+		}
+		@include mobile-horizontal {
+			padding: 0 !important;
+			text-align: center;
+		}
+		@include mobile-horizontal-lg {
+			padding: 0 !important;
+			text-align: center;
+		}
+		@include tablets-horizontal {
+			padding: 0 !important;
+			text-align: center;
+		}
+	}
+
+}
+.logo-app {
+	font-size: 28px;
+	@include mobile {
+		font-size: 12px;
+	}
+	@include tablets {
+		font-size: 20px;
+	}
+	@include mobile-horizontal {
+		font-size: 20px;
+	}
+	@include mobile-horizontal-lg {
+		font-size: 20px;
+	}
+}
+.nav-custom {
+	padding: 0em 0em 0em 1.5em !important;
+	background-color: rgba(252,253,254, 1) !important;
+	-moz-box-shadow: 0px 4px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 0px 4px 5px rgba(68,68,68,0.6);
+	box-shadow: 0px 4px 5px rgba(68,68,68,0.6);
+	//border: 1px solid rgba(84, 111, 137, 1);
+	.logo-header {
+		cursor: pointer;
+		width: 20%;
+		height: 5vh;
+		background-image: url("../images/motbuoc.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		@include mobile {
+			//display: none;
+			justify-content: center !important;
+		}
+		@include tablets {
+		}
+		@include tablets-pro {
+		}
+		@include mobile-horizontal {
+		}
+		@include mobile-horizontal-lg {
+		}
+		@include tablets-horizontal {
+		}
+	}
+	.nav-item {
+		color: white !important;
+	}
+	.nav-pills .nav-link {
+		border-radius: 0 !important
+	}
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+		background-color: #8A93AF !important;
+		color: #ffffff !important;
+	}
+	a {
+		color: #424F7E !important;
+		padding: 0.9375em 1.125em !important;
+		font-weight: bold !important;
+	}
+	li{
+		//border-right: 0.2px solid #748A9E ;
+	}
+	.last-item {
+		border-right: none ;
+	}
+	.nav-padding {
+		padding-left: 1.5em;
+		@include mobile {
+			padding: 0 !important;
+			display: block;
+		}
+		@include tablets {
+			padding: 0 !important;
+			display: block;
+		}
+		@include tablets-pro {
+			padding: 0 !important;
+		}
+		@include mobile-horizontal {
+			padding: 0 !important;
+			display: block;
+		}
+		@include mobile-horizontal-lg {
+			padding: 0 !important;
+			display: block;
+		}
+		@include tablets-horizontal {
+			padding: 0 !important;
+		}
+	}
+	.nav-link:hover {
+		background-color: #D9DBE5 !important;
+	}
+	@include mobile {
+		padding: 0 !important;
+	}
+	@include tablets {
+		padding: 0 !important;
+	}
+	@include mobile-horizontal {
+		padding: 0 !important;
+	}
+	@include mobile-horizontal-lg {
+		padding: 0 !important;
+	}
+	//.router-link-active {
+	//	cursor: pointer;
+	//	background-color: #424F7E;
+	//}
+	//.exact-active {
+	//	background-color: #424F7E;
+	//}
+
+}

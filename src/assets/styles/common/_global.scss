@@ -1,0 +1,22 @@
+.text {
+	color: red;
+}
+
+.nav-sticky{
+	position: -webkit-sticky !important; /* Safari */
+	position: sticky !important;
+	top: 0;
+	z-index: 99;
+}
+
+.row {
+  margin-right: 0 !important;
+}
+.btn-watch-details {
+  color: #ffffff !important;
+  background-color: #2A396E !important;
+  border: #2A396E !important;
+}
+#app {
+	text-align: justify;
+}

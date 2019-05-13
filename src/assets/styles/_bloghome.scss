@@ -1,0 +1,104 @@
+.screen-posts {
+  font-size: 16px !important;
+  padding: 0em 4em 0 4em;
+  @include mobile {
+    padding: 0em;
+  }
+  @include tablets {
+    padding: 0em;
+  }
+  @include tablets-pro {
+    padding: 1em;
+  }
+  @include mobile-horizontal {
+    padding: 1em;
+  }
+  @include mobile-horizontal-lg {
+    padding: 1em;
+  }
+  @include tablets-horizontal {
+    padding: 1em;
+  }
+  .screen-new-posts {
+    .block-new-posts {
+      .block-1 {
+        .posts-image-1 {
+          width: 100%;
+          height: 30vh;
+          cursor: pointer;
+          @include mobile {
+            height: 30vh;
+          }
+          @include tablets {
+            height: 30vh;
+          }
+          @include mobile-horizontal {
+            height: 50vh;
+          }
+          @include mobile-horizontal-lg {
+            height: 50vh;
+          }
+        }
+        .div-res-image {
+          @include mobile {
+            padding-right: 2px;
+            padding-left: 17px;
+          }
+          @include tablets {
+            padding-right: 2px;
+            padding-left: 30px;
+          }
+          @include mobile-horizontal {
+            padding-right: 2px;
+            padding-left: 30px;
+          }
+          @include mobile-horizontal-lg {
+            padding-right: 2px;
+            padding-left: 30px;
+          }
+        }
+      }
+      @include mobile {
+        padding-right: 0;
+      }
+    }
+
+    .sidebar-posts {
+      position: -webkit-sticky !important; /* Safari */
+      position: sticky !important;
+      top: 4em;
+      color: #ffffff;
+      height: 100%;
+      //padding: 2em 1em 2em 1em;
+      //background-color: rgba(19, 36, 94, 1);
+      border-radius: 3px;
+      .btn-sidebar-posts-details {
+        background: #424F7E;
+        color: #ffffff;
+      }
+      .details-posts-image {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        @include tablets-pro {
+          height: 15vh;
+        }
+        @include tablets-horizontal {
+          height: 20vh;
+        }
+      }
+      @include mobile {
+        display: none;
+      }
+      @include tablets {
+        display: none;
+      }
+      @include mobile-horizontal {
+        display: none;
+      }
+      @include mobile-horizontal-lg {
+        display: none;
+      }
+    }
+  }
+}

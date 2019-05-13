@@ -1,0 +1,393 @@
+#slide-1 {
+	cursor: pointer;
+}
+.card-header-sidebar {
+	background-color: #59658E !important;
+	color: #ffffff !important;
+	text-align: center;
+}
+.btn-custom {
+	padding: 1em;
+	background-color: #59658E !important;
+	border-radius: 3px;
+	color: #ffffff !important;
+}
+.content-page-detail {
+	border: 2px dotted red;
+	.text1 {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		color: #424F7E;
+		@include mobile {
+			font-size: 16px;
+		}
+	}
+	.image-block-vin {
+		padding: 0em 2em 0em 2em;
+		.image-vinhomeswest {
+			width: 100%;
+			height: 50vh;
+			//background-image: url("../images/vinhomeswest.jpg");
+			//background-size: 100% 100%;
+			//background-repeat: no-repeat;
+			@include mobile {
+				height: 30vh;
+			}
+		}
+		@include mobile {
+			padding: 0em .5em 0 .5em !important;
+		}
+	}
+
+	.text-pr {
+		text-align: left;
+		li {
+			margin-bottom: 1.5em;
+			background: url("../images/icon-vin.png") left no-repeat;
+			padding-left: 2.5em;
+			white-space: normal;
+			@include mobile {
+				margin-bottom: 0.3em;
+			}
+		}
+		ul{
+	      	list-style: none;
+	      	list-style: none;
+		    margin-left: 0;
+		    padding-left: 1em;
+	    }
+	}
+	.form-mail {
+		padding: 0 .5em;
+	}
+	.form-mail-custom {
+		padding: 0 1em;
+		background-color: #697499;
+		text-align: center;
+	}
+	.btn-register-now {
+		border-radius: 5em;
+		width: 100%;
+		color: #ffffff;
+		background-color: #2A396E !important
+	}
+	.btn-register-now:hover {
+		color: #ffffff;
+	}
+}
+.card-Custom {
+	position: -webkit-sticky !important; /* Safari */
+	position: sticky !important;
+	top: 4em;
+	.logo-banner{
+		width: 100%;
+		height: 35vh;
+		//background-image: url(../images/vin-west.jpg);
+		//background-size: 100% 100%;
+		//background-repeat: no-repeat;
+	}
+	.logo-banner:hover {
+		cursor: pointer;
+	}
+	.btn-sidebar-details {
+		border: 1px solid #F0F1F4;
+		border-radius: 0;
+	}
+	.btn-sidebar-details:hover {
+		background-color: #9BA2BB
+	}
+	.btn-sidebar-overview {
+		border: 1px solid #F0F1F4;
+		border-radius: 0;
+	}
+	.btn-sidebar-overview:hover {
+		background-color: #9BA2BB
+	}
+	.btn-sidebar-design {
+		border: 1px solid #F0F1F4;
+		border-radius: 0;
+	}
+	.btn-sidebar-design:hover {
+		background-color: #9BA2BB
+	}
+	.btn-sidebar-smart {
+		border: 1px solid #F0F1F4;
+		border-radius: 0;
+	}
+	.btn-sidebar-smart:hover {
+		background-color: #9BA2BB
+	}
+	.btn-sidebar-pay {
+		border: 1px solid #F0F1F4;
+		border-radius: 0;
+	}
+	.btn-sidebar-pay:hover {
+		background-color: #9BA2BB
+	}
+	@include mobile {
+		display: none !important;
+	}
+	@include tablets {
+		display: none !important;
+	}
+	@include mobile-horizontal {
+		display: none !important;
+	}
+	@include mobile-horizontal-lg {
+		display: none !important;
+	}
+}
+.content-page-overview {
+	text-align: left;
+	.image-line-overview {
+    display: block;	
+    margin: 0 auto;
+    width: 50%;
+    height: 2vh;
+    align-items: center;
+    background-image: url("../images/line.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+	}	
+	.text-overview {
+		font-size: 24px;
+		font-weight: 600;
+		color: #424F7E;
+		@include mobile {
+			font-size: 18px;
+		}
+	}
+	.oveview-li {
+		float: left;
+	}
+	.image-vinhom-stay {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	    background-image: url("../images/vin-stay.jpg");
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+		@include mobile {
+			height: 30vh;
+		}
+	}
+}
+.content-page-design {
+	.image-line-design {
+	    display: block;	
+	    margin: 0 auto;
+	    width: 50%;
+	    height: 2vh;
+	    align-items: center;
+	    background-image: url("../images/line.jpg");
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	}
+	.text-page-design {
+		font-size: 24px;
+		font-weight: 600;
+		color: #424F7E;
+		text-align: center;
+		@include mobile {
+			font-size: 18px;
+		}
+	}
+	.btn-download-pay {
+		padding: .5em 5em;
+		color: #ffffff;
+		background-color: rgba(84,111,137,1);
+		@include mobile {
+			padding: 0;
+			width: 100%;
+		}
+	}
+	.btn-download-pay:hover {
+		color: #ffffff;
+	}
+}
+.page-smart-vinhome {
+	.div-image-transition {
+		@include mobile {
+			padding-right: 0;
+		}
+		@include tablets {
+			padding-right: 0;
+		}
+		@include mobile-horizontal {
+			padding-right: 0;
+		}
+		@include mobile-horizontal-lg {
+			padding-right: 0;
+		}
+	}
+	.div-smart-padding-mobile{
+		@include mobile {
+			padding-left: 15px;
+		}
+		@include tablets {
+			padding-right: 0px;
+		}
+		@include mobile-horizontal {
+			padding-right: 0px;
+		}
+		@include mobile-horizontal-lg {
+			padding-right: 0px;
+		}
+	}
+	.image-line-smart {
+	    display: block;	
+	    margin: 0 auto;
+	    width: 50%;
+	    height: 2vh;
+	    align-items: center;
+	    background-image: url("../images/line.jpg");
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	}
+	.text-pr {
+		text-align: left;
+		li {
+			margin-bottom: 1.5em;
+			background: url("../images/icon-vin.png") left no-repeat;
+			padding-left: 2.5em;
+			white-space: normal;
+			@include mobile {
+				margin-bottom: 0.3em;
+			}
+		}
+		ul{
+	      	list-style: none;
+		    margin-left: 0;
+		    padding-left: 1em;
+	    }
+	}
+	.image-vinhom-stay-1 {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+	    //background-image: url("../images/vin-stay.jpg");
+	    //background-size: 100% 100%;
+	    //background-repeat: no-repeat;
+		transition: all .5s ease-in-out;
+		@include mobile {
+			height: 20vh;
+		}
+		@include tablets {
+			height: 25vh;
+		}
+		@include tablets-pro {
+			height: 25vh;
+		}
+	}
+	.image-vinhom-stay-1:hover {
+		transform: scale(1.05);
+	}
+	.image-vinhomeswest-1 {
+		width: 100%;
+		height: 20vh;
+	    //background-image: url("../images/vinhomeswest.jpg");
+	    //background-size: 100% 100%;
+	    //background-repeat: no-repeat;
+		transition: all .5s ease-in-out;
+		@include mobile {
+			height: 15vh;
+		}
+		@include tablets {
+			height: 18vh;
+		}
+		@include tablets-pro {
+			height: 18vh;
+		}
+	}
+	.image-vinhomeswest-1:hover {
+		transform: scale(1.05);
+	}
+	.text-page-smart {
+		font-size: 24px;
+		font-weight: 600;
+		color: #424F7E;
+		text-align: center;
+		@include mobile {
+			font-size: 18px;
+		}
+	}
+}
+.screen-page-pay {
+	.form-register-custom {
+		width: 100%;
+		text-align: center;
+		background-color: rgba(242,243,244,.5);
+		margin-left: 14px;
+		border: 1px solid rgba(193,198,203,1) ;
+		.btn-register-now {
+		border-radius: 2em;
+		padding: .5em 1em;
+		color: #ffffff;
+		background-color: #2A396E !important
+	}
+	}
+	.div-padding-tablets {
+		@include tablets {
+			padding-right: 0;
+		}
+		@include mobile {
+			padding-right: 0;
+		}
+		@include mobile-horizontal {
+			padding-right: 0px;
+		}
+		@include mobile-horizontal-lg {
+			padding-right: 0px;
+		}
+	}
+	.image-line-pay {
+	    display: block;	
+	    margin: 0 auto;
+	    width: 50%;
+	    height: 2vh;
+	    align-items: center;
+	    background-image: url("../images/line.jpg");
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	}
+	.text-page-pay{
+		font-size: 24px;
+		font-weight: 600;
+		color: #424F7E;
+		text-align: center;
+	}
+	.btn-register-pay {
+		padding: .3em 5em .3em 5em;
+		border-radius: 5px;
+		color: #ffffff;
+		background-color: #2A396E !important
+	}
+}
+.content-page-padding {
+	@include mobile {
+		padding-right: 5px !important;
+		padding-left: 5px !important;
+	}
+}
+.screen-home-vip {
+	padding: 0 4em 0 4em;
+	@include mobile {
+		padding: 0 0 0 1em;
+	}
+	@include tablets {
+
+	}
+	@include tablets-pro {
+
+	}
+	@include mobile-horizontal {
+
+	}
+	@include mobile-horizontal-lg {
+
+	}
+	@include tablets-horizontal {
+
+	}
+}
